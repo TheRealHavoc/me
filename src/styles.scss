@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'shared/imports';
+@import 'shared/variables';
+
+html {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 62.5%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+p,a {
+    font-size: 1.6rem;
+}
+
+a {
+    transition: 0.1s;
+
+    font-weight: bold;
+    color: var(--color-white);
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+// Flex
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.gap-12 { gap: 12px; }
+.gap-2 { gap: 2px; }

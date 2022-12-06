@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/me/"
+    "deploy": "ng deploy --base-href=/"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "rxjs": "~7.5.0",
+    "scss-reset": "^1.2.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
